@@ -11,10 +11,10 @@ CITY = "Kuantan"
 URL = f"http://api.openweathermap.org/data/2.5/weather?q={CITY}&appid={API_KEY}&units=metric"
 
 # MySQL database connection info
-DB_HOST = "your-database-host"  # For example, "localhost" or "your-mysql-host.com"
-DB_NAME = "weather_data"        # Your database name
-DB_USER = "your-username"       # Your MySQL username
-DB_PASSWORD = "your-password"   # Your MySQL password
+DB_HOST = "sql12.freesqldatabase.com"  # For example, "localhost" or "your-mysql-host.com"
+DB_NAME = "sql12783930"        # Your database name
+DB_USER = "sql12783930"       # Your MySQL username
+DB_PASSWORD = "WhhjtQkhFB"   # Your MySQL password
 
 # Create a MySQL connection
 def create_connection():
